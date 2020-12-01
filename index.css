@@ -1,14 +1,34 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 html{
-    background-color: #ffffff;
-    color: #555;
-    font-family: 'Open Sans''Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 200px;
-    text-rendering: optimizeLegibility;
+background-color: #ffffff;
+color: #555;
+font-family: 'Open Sans''Oswald', sans-serif;
+font-weight: 300;
+text-rendering: optimizeLegibility;
 }
+
+.row{
+max-width: auto;
+margin: 0 auto; 
+}
+
+header{
+background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
