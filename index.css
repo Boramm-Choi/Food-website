@@ -7,8 +7,8 @@ box-sizing: border-box;
 html{
 background-color: #ffffff;
 color: #555;
-font-family: 'Open Sans''Oswald', sans-serif;
-font-weight: 300;
+font-weight: 100;
+font-size: 20px;
 text-rendering: optimizeLegibility;
 }
 
@@ -25,10 +25,61 @@ height: 100vh;
 }
 
 .hero-text-box{
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+position: absolute;
+width: 1140px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 }
 
+h1{
+margin-top: 0;
+margin-bottom: 20px;
+color: #ffffff;
+font-size: 240%;
+font-weight: 100;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited{
+display: inline-block;
+padding: 10px 30px;
+font-weight: 100;
+text-decoration: none;
+border-radius: 200px;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-1:link,
+.btn-1:visited{
+background-color: #e67e22;
+border: 1px solid  #e67e22;;
+color:#ffffff;
+margin-right: 15px;
+}
+
+.btn-2:link,
+.btn-2:visited{
+border: 1px solid  #e67e22;
+color: #e67e22;
+}
+
+.btn:hover,
+.btn:active{
+background-color:#cf6d17 ;
+}
+
+.btn-1:hover,
+.btn-1:active{
+border: 1px solid  #cf6d17 ;
+}
+
+.btn-2:hover,
+.btn-2:visited{
+border: 1px solid  #cf6d17 ;
+color: #ffffff;
+}
