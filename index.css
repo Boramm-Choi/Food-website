@@ -106,6 +106,7 @@ font-size: 90%;
 line-height: 145%;
 }
 
+/* Icons */
 .icon-big{
 font-size: 250%;
 display: block;
@@ -113,6 +114,37 @@ color: #e67e22;
 margin-bottom:10px ;
 margin-left: 70px;
 }
+
+.icon-small{
+display:inline-block;
+width: 30px;
+text-align: center;
+color: #e67e22;
+font-size: 120%;
+margin-right: 10px;
+/* secrets to align text &  */
+line-height: 120%;
+vertical-align: middle;
+margin-top: -5px;
+}
+
+/* links */
+a{
+color: #e67e22;
+text-decoration: none;
+padding-bottom: 1px;
+border-bottom: 1px solid #e67e22;
+transition: border-bottm 0.2s color 0.2s;
+}
+
+a:hover{
+color: #555;
+border-bottom: 1px solid transparent;
+}
+
+
+
+
 /* Buttons */
 .btn:link,
 .btn:visited{
@@ -248,7 +280,7 @@ transform: scale(1.04);
 /* How it works */
 
 .section-steps{
-background-color: #bbbbbb;
+background-color: #e6e6e6;
 }
 
 .steps-box:first-child{
@@ -287,9 +319,24 @@ font-size: 150%;
 margin-right: 25px;
 }
 
+.btn-app{
+    border: 0;
+}
+
 .btn-app img{
 height: 50px;
 width: auto;
 margin-right:10px ;
 }
 
+
+/* Cities */
+.box img{
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+}
+
+.city-feature{
+margin-bottom: 5px;
+}
