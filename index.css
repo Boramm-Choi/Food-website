@@ -191,6 +191,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
     }
     
     .hero-text-box{
@@ -320,7 +321,7 @@ margin-right: 25px;
 }
 
 .btn-app{
-    border: 0;
+border: 0;
 }
 
 .btn-app img{
@@ -339,4 +340,46 @@ margin-bottom: 15px;
 
 .city-feature{
 margin-bottom: 5px;
+}
+
+
+/* Testimonials */
+
+.section-testimonials{
+background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/back-customers.jpg);
+background-size: cover;
+color: #ffffff;
+background-attachment: fixed;
+}
+
+blockquote{
+padding: 2%;
+font-style: italic;
+line-height: 145%;
+position: relative;
+margin-top: 40px;
+}
+
+blockquote:before{
+content: "\201C";
+font-size: 500%;
+display: block;
+position:absolute;
+top: -5px;
+left:-5px;
+}
+
+
+cite{
+font-size: 90%;
+margin-top: 25px;
+display: block;
+}
+
+
+cite img{
+height: 40px;
+border-radius: 50%;
+margin-right: 10px;
+vertical-align: middle;
 }
